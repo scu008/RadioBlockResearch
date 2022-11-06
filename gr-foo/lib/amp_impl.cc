@@ -41,8 +41,8 @@ namespace gr {
      */
     amp_impl::amp_impl(float value)
       : gr::sync_block("amp",
-              gr::io_signature::make(1, 1, sizeof(<+ITYPE+>)),
-              gr::io_signature::make(1, 1, sizeof(<+OTYPE+>)))
+              gr::io_signature::make(1, 1, sizeof(float)),
+              gr::io_signature::make(1, 1, sizeof(float)))
     {
       _value = value;
 
