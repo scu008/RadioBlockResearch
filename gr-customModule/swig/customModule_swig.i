@@ -8,5 +8,8 @@
 %include "customModule_swig_doc.i"
 
 %{
+#include "customModule/buffer.h"
 %}
 
+%include "customModule/buffer.h"
+GR_SWIG_BLOCK_MAGIC2(customModule, buffer);

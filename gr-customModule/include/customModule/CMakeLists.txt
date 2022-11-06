@@ -23,5 +23,5 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/customModule
+    buffer.h DESTINATION include/customModule
 )

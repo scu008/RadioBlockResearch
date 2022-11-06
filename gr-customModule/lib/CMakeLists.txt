@@ -24,6 +24,7 @@
 include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND customModule_sources
+    buffer_impl.cc
 )
 
 set(customModule_sources "${customModule_sources}" PARENT_SCOPE)
