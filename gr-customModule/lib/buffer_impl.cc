@@ -41,9 +41,12 @@ namespace gr {
      */
     buffer_impl::buffer_impl(size)
       : gr::sync_block("buffer",
-              gr::io_signature::make(<+MIN_IN+>, <+MAX_IN+>, sizeof(<+ITYPE+>)),
-              gr::io_signature::make(<+MIN_OUT+>, <+MAX_OUT+>, sizeof(<+OTYPE+>)))
-    {}
+              gr::io_signature::make(1, 1, sizeof(<+ITYPE+>)),
+              gr::io_signature::make(1, 1, sizeof(<+OTYPE+>)))
+    {
+      _size = size;
+
+    }
 
     /*
      * Our virtual destructor.
@@ -57,8 +60,12 @@ namespace gr {
         gr_vector_const_void_star &input_items,
         gr_vector_void_star &output_items)
     {
-      const <+ITYPE+> *in = (const <+ITYPE+> *) input_items[0];
-      <+OTYPE+> *out = (<+OTYPE+> *) output_items[0];
+      const <float> *in = (const <float> *) input_items[0];
+      <float> *out = (<float> *) output_items[0];
+
+      for(int i=0; i<noutput_items; i++){
+        out[i] = in[i] * size;
+      }
 
       // Do <+signal processing+>
 
