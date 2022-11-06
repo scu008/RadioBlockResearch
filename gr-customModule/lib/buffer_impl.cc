@@ -41,8 +41,8 @@ namespace gr {
      */
     buffer_impl::buffer_impl(size)
       : gr::sync_block("buffer",
-              gr::io_signature::make(1, 1, sizeof(<+ITYPE+>)),
-              gr::io_signature::make(1, 1, sizeof(<+OTYPE+>)))
+              gr::io_signature::make(1, 1, sizeof(<float>)),
+              gr::io_signature::make(1, 1, sizeof(<float>)))
     {
       _size = size;
 
