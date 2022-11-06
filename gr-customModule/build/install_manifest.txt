@@ -1,0 +1,13 @@
+/usr/local/lib/cmake/customModule/customModuleConfig.cmake
+/usr/local/include/customModule/api.h
+/usr/local/include/customModule/buffer.h
+/usr/local/lib/arm-linux-gnueabihf/libgnuradio-customModule.so.v1.0-compat-xxx-xunknown
+/usr/local/lib/arm-linux-gnueabihf/libgnuradio-customModule.so.1.0.0git
+/usr/local/lib/arm-linux-gnueabihf/libgnuradio-customModule.so
+/usr/local/lib/cmake/customModule/gnuradio-customModuleTargets.cmake
+/usr/local/lib/cmake/customModule/gnuradio-customModuleTargets-release.cmake
+/usr/local/lib/cmake/customModule/gnuradio-customModuleConfig.cmake
+/usr/local/lib/python3/dist-packages/customModule/__init__.py
+/usr/local/lib/python3/dist-packages/customModule/__init__.pyc
+/usr/local/lib/python3/dist-packages/customModule/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/customModule_buffer.block.yml
