@@ -45,7 +45,7 @@ namespace gr {
        * class. customModule::buffer::make is the public interface for
        * creating new instances.
        */
-      static sptr make(size = 1024);
+      static sptr make(float size);
     };
 
   } // namespace customModule

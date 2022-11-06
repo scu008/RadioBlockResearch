@@ -60,11 +60,11 @@ namespace gr {
         gr_vector_const_void_star &input_items,
         gr_vector_void_star &output_items)
     {
-      const <float> *in = (const <float> *) input_items[0];
-      <float> *out = (<float> *) output_items[0];
+      const float *in = (const float *) input_items[0];
+      float *out = (float *) output_items[0];
 
       for(int i=0; i<noutput_items; i++){
-        out[i] = in[i] * size;
+        out[i] = in[i] * _size;
       }
 
       // Do <+signal processing+>
