@@ -8,5 +8,8 @@
 %include "foo_swig_doc.i"
 
 %{
+#include "foo/amp.h"
 %}
 
+%include "foo/amp.h"
+GR_SWIG_BLOCK_MAGIC2(foo, amp);

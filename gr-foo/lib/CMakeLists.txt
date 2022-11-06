@@ -24,6 +24,7 @@
 include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND foo_sources
+    amp_impl.cc
 )
 
 set(foo_sources "${foo_sources}" PARENT_SCOPE)

@@ -23,5 +23,5 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/foo
+    amp.h DESTINATION include/foo
 )
