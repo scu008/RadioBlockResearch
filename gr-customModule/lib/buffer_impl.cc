@@ -45,7 +45,6 @@ namespace gr {
               gr::io_signature::make(1, 1, sizeof(float)))
     {
       _size = size;
-
     }
 
     /*

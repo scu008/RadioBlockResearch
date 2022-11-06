@@ -30,6 +30,7 @@ namespace gr {
     {
      private:
       // Nothing to declare in this block.
+      float _size;
 
      public:
       buffer_impl(float size);
