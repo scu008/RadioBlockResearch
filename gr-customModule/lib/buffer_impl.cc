@@ -29,7 +29,7 @@ namespace gr {
   namespace customModule {
 
     buffer::sptr
-    buffer::make(size)
+    buffer::make(float size)
     {
       return gnuradio::get_initial_sptr
         (new buffer_impl(size));
@@ -39,7 +39,7 @@ namespace gr {
     /*
      * The private constructor
      */
-    buffer_impl::buffer_impl(size)
+    buffer_impl::buffer_impl(float size)
       : gr::sync_block("buffer",
               gr::io_signature::make(1, 1, sizeof(<float>)),
               gr::io_signature::make(1, 1, sizeof(<float>)))
