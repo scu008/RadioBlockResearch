@@ -30,6 +30,7 @@ namespace gr {
     {
      private:
       // Nothing to declare in this block.
+      float _value;
 
      public:
       amp_impl(float value);

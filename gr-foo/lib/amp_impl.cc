@@ -41,9 +41,12 @@ namespace gr {
      */
     amp_impl::amp_impl(float value)
       : gr::sync_block("amp",
-              gr::io_signature::make(<+MIN_IN+>, <+MAX_IN+>, sizeof(<+ITYPE+>)),
-              gr::io_signature::make(<+MIN_OUT+>, <+MAX_OUT+>, sizeof(<+OTYPE+>)))
-    {}
+              gr::io_signature::make(1, 1, sizeof(<+ITYPE+>)),
+              gr::io_signature::make(1, 1, sizeof(<+OTYPE+>)))
+    {
+      _value = value;
+
+    }
 
     /*
      * Our virtual destructor.
@@ -57,10 +60,13 @@ namespace gr {
         gr_vector_const_void_star &input_items,
         gr_vector_void_star &output_items)
     {
-      const <+ITYPE+> *in = (const <+ITYPE+> *) input_items[0];
-      <+OTYPE+> *out = (<+OTYPE+> *) output_items[0];
+      const float *in = (const float *) input_items[0];
+      float *out = (float *) output_items[0];
 
       // Do <+signal processing+>
+      for(int i=0; i<noutput_items; i++){
+        out[i] = in[i] * _value;
+      }
 
       // Tell runtime system how many output items we produced.
       return noutput_items;
