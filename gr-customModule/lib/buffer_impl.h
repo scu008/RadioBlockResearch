@@ -32,7 +32,7 @@ namespace gr {
       // Nothing to declare in this block.
 
      public:
-      buffer_impl(size);
+      buffer_impl(float size);
       ~buffer_impl();
 
       // Where all the action really happens
