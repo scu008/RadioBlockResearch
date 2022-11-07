@@ -32,7 +32,7 @@ namespace gr {
       // Nothing to declare in this block.
 
      public:
-      amp_impl();
+      amp_impl(float size);
       ~amp_impl();
 
       // Where all the action really happens
