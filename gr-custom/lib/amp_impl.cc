@@ -29,21 +29,23 @@ namespace gr {
   namespace custom {
 
     amp::sptr
-    amp::make()
+    amp::make(float size)
     {
       return gnuradio::get_initial_sptr
-        (new amp_impl());
+        (new amp_impl(size));
     }
 
 
     /*
      * The private constructor
      */
-    amp_impl::amp_impl()
+    amp_impl::amp_impl(float size)
       : gr::sync_block("amp",
-              gr::io_signature::make(<+MIN_IN+>, <+MAX_IN+>, sizeof(<+ITYPE+>)),
-              gr::io_signature::make(<+MIN_OUT+>, <+MAX_OUT+>, sizeof(<+OTYPE+>)))
-    {}
+              gr::io_signature::make(1, 1, sizeof(float)),
+              gr::io_signature::make(1, 1, sizeof(float)))
+    {
+      _size = size;
+      }
 
     /*
      * Our virtual destructor.
@@ -57,10 +59,13 @@ namespace gr {
         gr_vector_const_void_star &input_items,
         gr_vector_void_star &output_items)
     {
-      const <+ITYPE+> *in = (const <+ITYPE+> *) input_items[0];
-      <+OTYPE+> *out = (<+OTYPE+> *) output_items[0];
+      const float *in = (const float *) input_items[0];
+      float *out = (float *) output_items[0];
 
       // Do <+signal processing+>
+      for(int i=0; i<noutput_items; i++){
+       out[i] = in[i] * _size; 
+      }
 
       // Tell runtime system how many output items we produced.
       return noutput_items;
