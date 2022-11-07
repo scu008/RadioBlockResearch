@@ -45,7 +45,7 @@ namespace gr {
        * class. custom::amp::make is the public interface for
        * creating new instances.
        */
-      static sptr make();
+      static sptr make(float size);
     };
 
   } // namespace custom
