@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_d00e28a72f84552d21a6c20e4d16b2f7" kind="dir">
+    <compoundname>tuto</compoundname>
+    <innerfile refid="amp_8h">amp.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="mov__avg_8h">mov_avg.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lws/test/gr-tuto/include/gnuradio/tuto/"/>
+  </compounddef>
+</doxygen>

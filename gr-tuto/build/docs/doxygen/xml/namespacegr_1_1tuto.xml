@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1tuto" kind="namespace" language="C++">
+    <compoundname>gr::tuto</compoundname>
+    <innerclass refid="classgr_1_1tuto_1_1amp" prot="public">gr::tuto::amp</innerclass>
+    <innerclass refid="classgr_1_1tuto_1_1mov__avg" prot="public">gr::tuto::mov_avg</innerclass>
+    <innerclass refid="classgr_1_1tuto_1_1amp__impl" prot="public">gr::tuto::amp_impl</innerclass>
+    <innerclass refid="classgr_1_1tuto_1_1mov__avg__impl" prot="public">gr::tuto::mov_avg_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lws/test/gr-tuto/include/gnuradio/tuto/amp.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

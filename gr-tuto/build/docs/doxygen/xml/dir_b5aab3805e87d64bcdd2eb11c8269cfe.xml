@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_b5aab3805e87d64bcdd2eb11c8269cfe" kind="dir">
+    <compoundname>tuto</compoundname>
+    <innerdir refid="dir_0defd382fa22ccda244ca523b07760f2">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lws/test/gr-tuto/build/python/tuto/"/>
+  </compounddef>
+</doxygen>

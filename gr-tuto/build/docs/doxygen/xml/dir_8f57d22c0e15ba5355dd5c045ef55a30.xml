@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_8f57d22c0e15ba5355dd5c045ef55a30" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerdir refid="dir_7d86e9b61fb1deba928566e932b6334a">docstrings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lws/test/gr-tuto/python/tuto/bindings/"/>
+  </compounddef>
+</doxygen>

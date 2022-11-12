@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/lws/test/gr-tuto/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_tuto_EXPORTS -I/home/lws/test/gr-tuto/lib/../include -isystem /usr/include/python3.10  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/gnuradio-tuto.dir/amp_impl.cc.o -c /home/lws/test/gr-tuto/lib/amp_impl.cc",
+  "file": "/home/lws/test/gr-tuto/lib/amp_impl.cc"
+},
+{
+  "directory": "/home/lws/test/gr-tuto/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_tuto_EXPORTS -I/home/lws/test/gr-tuto/lib/../include -isystem /usr/include/python3.10  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/gnuradio-tuto.dir/mov_avg_impl.cc.o -c /home/lws/test/gr-tuto/lib/mov_avg_impl.cc",
+  "file": "/home/lws/test/gr-tuto/lib/mov_avg_impl.cc"
+},
+{
+  "directory": "/home/lws/test/gr-tuto/build/python/tuto/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtuto_python_EXPORTS -I/home/lws/test/gr-tuto/build/python/tuto/bindings -I/home/lws/test/gr-tuto/python/tuto/bindings/../../../lib -I/home/lws/test/gr-tuto/python/tuto/bindings/../../../include -I/home/lws/test/gr-tuto/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -std=c++17 -o CMakeFiles/tuto_python.dir/amp_python.cc.o -c /home/lws/test/gr-tuto/python/tuto/bindings/amp_python.cc",
+  "file": "/home/lws/test/gr-tuto/python/tuto/bindings/amp_python.cc"
+},
+{
+  "directory": "/home/lws/test/gr-tuto/build/python/tuto/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtuto_python_EXPORTS -I/home/lws/test/gr-tuto/build/python/tuto/bindings -I/home/lws/test/gr-tuto/python/tuto/bindings/../../../lib -I/home/lws/test/gr-tuto/python/tuto/bindings/../../../include -I/home/lws/test/gr-tuto/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -std=c++17 -o CMakeFiles/tuto_python.dir/mov_avg_python.cc.o -c /home/lws/test/gr-tuto/python/tuto/bindings/mov_avg_python.cc",
+  "file": "/home/lws/test/gr-tuto/python/tuto/bindings/mov_avg_python.cc"
+},
+{
+  "directory": "/home/lws/test/gr-tuto/build/python/tuto/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtuto_python_EXPORTS -I/home/lws/test/gr-tuto/build/python/tuto/bindings -I/home/lws/test/gr-tuto/python/tuto/bindings/../../../lib -I/home/lws/test/gr-tuto/python/tuto/bindings/../../../include -I/home/lws/test/gr-tuto/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -std=c++17 -o CMakeFiles/tuto_python.dir/python_bindings.cc.o -c /home/lws/test/gr-tuto/python/tuto/bindings/python_bindings.cc",
+  "file": "/home/lws/test/gr-tuto/python/tuto/bindings/python_bindings.cc"
+}
+]

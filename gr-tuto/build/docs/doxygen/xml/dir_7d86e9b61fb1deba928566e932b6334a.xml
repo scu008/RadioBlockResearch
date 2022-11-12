@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_7d86e9b61fb1deba928566e932b6334a" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="amp__pydoc__template_8h">amp_pydoc_template.h</innerfile>
+    <innerfile refid="mov__avg__pydoc__template_8h">mov_avg_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

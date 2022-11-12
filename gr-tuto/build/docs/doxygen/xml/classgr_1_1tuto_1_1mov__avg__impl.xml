@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1tuto_1_1mov__avg__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tuto::mov_avg_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tuto_1_1mov__avg" prot="public" virt="non-virtual">gr::tuto::mov_avg</basecompoundref>
+    <includes refid="mov__avg__impl_8h" local="no">mov_avg_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tuto_1_1mov__avg__impl_1ac85035061ad6a653a94b555b8eb96c3b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tuto::mov_avg_impl::_size</definition>
+        <argsstring></argsstring>
+        <name>_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/lib/mov_avg_impl.h" line="20" column="9" bodyfile="/home/lws/test/gr-tuto/lib/mov_avg_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tuto_1_1mov__avg__impl_1aaca6061a192c4132d81fa247815eea0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tuto::mov_avg_impl::mov_avg_impl</definition>
+        <argsstring>(int size)</argsstring>
+        <name>mov_avg_impl</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/lib/mov_avg_impl.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tuto_1_1mov__avg__impl_1aacd4aa9a5741de63cbd2a0f9b691f306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tuto::mov_avg_impl::~mov_avg_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~mov_avg_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/lib/mov_avg_impl.h" line="24" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tuto_1_1mov__avg__impl_1a6820c4498a61cdbfed9fb306e27e1877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tuto::mov_avg_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/lib/mov_avg_impl.h" line="27" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::tuto::mov_avg</label>
+        <link refid="classgr_1_1tuto_1_1mov__avg"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::tuto::mov_avg_impl</label>
+        <link refid="classgr_1_1tuto_1_1mov__avg__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::tuto::mov_avg</label>
+        <link refid="classgr_1_1tuto_1_1mov__avg"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::tuto::mov_avg_impl</label>
+        <link refid="classgr_1_1tuto_1_1mov__avg__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lws/test/gr-tuto/lib/mov_avg_impl.h" line="16" column="1" bodyfile="/home/lws/test/gr-tuto/lib/mov_avg_impl.h" bodystart="17" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tuto_1_1mov__avg__impl_1ac85035061ad6a653a94b555b8eb96c3b" prot="private" virt="non-virtual"><scope>gr::tuto::mov_avg_impl</scope><name>_size</name></member>
+      <member refid="classgr_1_1tuto_1_1mov__avg_1a29e109e89a952f2181d34df4cba74381" prot="public" virt="non-virtual"><scope>gr::tuto::mov_avg_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tuto_1_1mov__avg__impl_1aaca6061a192c4132d81fa247815eea0f" prot="public" virt="non-virtual"><scope>gr::tuto::mov_avg_impl</scope><name>mov_avg_impl</name></member>
+      <member refid="classgr_1_1tuto_1_1mov__avg_1addde46853a186f094fe4f57de1c6442e" prot="public" virt="non-virtual"><scope>gr::tuto::mov_avg_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tuto_1_1mov__avg__impl_1a6820c4498a61cdbfed9fb306e27e1877" prot="public" virt="non-virtual"><scope>gr::tuto::mov_avg_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1tuto_1_1mov__avg__impl_1aacd4aa9a5741de63cbd2a0f9b691f306" prot="public" virt="non-virtual"><scope>gr::tuto::mov_avg_impl</scope><name>~mov_avg_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

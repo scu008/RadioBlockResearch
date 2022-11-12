@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="amp__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>amp_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+      <node id="1">
+        <label>amp_pydoc_template.h</label>
+        <link refid="amp__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="amp__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, tuto, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" line="10" column="10" bodyfile="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="amp__pydoc__template_8h_1a0849de673a8ff906d4460d291736cab0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_tuto_amp</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_tuto_amp</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" line="19" column="20" bodyfile="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="amp__pydoc__template_8h_1a095f8bcc39e1683a769b0da088e74679" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_tuto_amp_amp</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_tuto_amp_amp</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" line="22" column="20" bodyfile="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="amp__pydoc__template_8h_1a2a0dc36f79b4b4d74994e821df1d9c38" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_tuto_amp_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_tuto_amp_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" line="25" column="20" bodyfile="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lws/test/gr-tuto/python/tuto/bindings/docstrings/amp_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

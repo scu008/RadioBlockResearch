@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1tuto_1_1amp" kind="class" language="C++" prot="public">
+    <compoundname>gr::tuto::amp</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1tuto_1_1amp__impl" prot="public" virt="non-virtual">gr::tuto::amp_impl</derivedcompoundref>
+    <includes refid="amp_8h" local="no">amp.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1tuto_1_1amp_1a7f6adf2eb75bb854bec225c702b2f032" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1tuto_1_1amp" kindref="compound">amp</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;amp&gt; gr::tuto::amp::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/include/gnuradio/tuto/amp.h" line="25" column="29" bodyfile="/home/lws/test/gr-tuto/include/gnuradio/tuto/amp.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1tuto_1_1amp_1a02c73763963cadcc909a25c95013897e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1tuto_1_1amp_1a7f6adf2eb75bb854bec225c702b2f032" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::tuto::amp::make</definition>
+        <argsstring>(float value)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1tuto_1_1amp" kindref="compound">tuto::amp</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1tuto_1_1amp" kindref="compound">tuto::amp</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1tuto_1_1amp_1a02c73763963cadcc909a25c95013897e" kindref="member">tuto::amp::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lws/test/gr-tuto/include/gnuradio/tuto/amp.h" line="35" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::tuto::amp_impl</label>
+        <link refid="classgr_1_1tuto_1_1amp__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::tuto::amp</label>
+        <link refid="classgr_1_1tuto_1_1amp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::tuto::amp</label>
+        <link refid="classgr_1_1tuto_1_1amp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lws/test/gr-tuto/include/gnuradio/tuto/amp.h" line="22" column="1" bodyfile="/home/lws/test/gr-tuto/include/gnuradio/tuto/amp.h" bodystart="23" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tuto_1_1amp_1a02c73763963cadcc909a25c95013897e" prot="public" virt="non-virtual"><scope>gr::tuto::amp</scope><name>make</name></member>
+      <member refid="classgr_1_1tuto_1_1amp_1a7f6adf2eb75bb854bec225c702b2f032" prot="public" virt="non-virtual"><scope>gr::tuto::amp</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

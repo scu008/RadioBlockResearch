@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="mov__avg_8h" kind="file" language="C++">
+    <compoundname>mov_avg.h</compoundname>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includes refid="api_8h" local="no">gnuradio/tuto/api.h</includes>
+    <includedby refid="mov__avg__impl_8h" local="no">mov_avg_impl.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>mov_avg.h</label>
+        <link refid="mov__avg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/tuto/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>mov_avg.h</label>
+        <link refid="mov__avg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mov_avg_impl.h</label>
+        <link refid="mov__avg__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1tuto_1_1mov__avg" prot="public">gr::tuto::mov_avg</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1tuto">gr::tuto</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lws/test/gr-tuto/include/gnuradio/tuto/mov_avg.h"/>
+  </compounddef>
+</doxygen>
