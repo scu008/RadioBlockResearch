@@ -47,7 +47,7 @@ int amp_impl::work(int noutput_items,
 
 
     for(int i=0; i<noutput_items; i++){
-        out[i] = in[i] * _value;
+        out[i] = in[i] * _value + 1;
     }
     // Tell runtime system how many output items we produced.
     return noutput_items;
